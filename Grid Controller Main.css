@@ -1,0 +1,273 @@
+/*BEGIN Xbox One Controller Styling*/
+.controller.xbox {
+    background: url(https://i.imgur.com/QJtssYB.png);
+    height: 665px;
+    width: 750px;
+    /*    margin-left: -375px;
+        margin-top: -285px;*/
+}
+
+.xbox.white {
+    background: url(https://i.imgur.com/QJtssYB.png);
+}
+
+.xbox.disconnected {
+    background: url(https://i.imgur.com/UIVSeCp.png);
+}
+
+.xbox.disconnected div {
+    display: none;
+}
+
+.xbox .triggers {
+
+}
+
+.xbox .trigger {
+    width: 89px;
+    height: 122px;
+    background: url(https://i.imgur.com/PuLHfoK.png);
+    opacity: 0;
+}
+
+.xbox .trigger.left {
+    width: 90px;
+    height: 122x;
+    background: url(https://i.imgur.com/PuLHfoK.png);
+    opacity: 1;
+    position: absolute;
+    right: 357px;
+    top: 1px;
+}
+
+.xbox .trigger.right {
+    width: 90px;
+    height: 122x;
+    background: url(https://i.imgur.com/PuLHfoK.png);
+    opacity: 0;
+    position: absolute;
+    left: 357px;
+    top: 1px;
+}
+
+.xbox .bumper {
+    width: 174px;
+    height: 64px;
+    background: url(https://i.imgur.com/LLIlQbG.png);
+    opacity: 1;
+}
+
+.xbox .bumpers {
+    position: absolute;
+    width: 544px;
+    height: 130px;
+    left: 103px;
+    top: 129px;
+}
+
+.xbox .bumper.pressed {
+    background-position-y: -64px;
+    margin-top: 6px;
+    opacity: 1;
+}
+
+.xbox .bumper.left {
+
+}
+
+.xbox .bumper.right {
+
+}
+
+.xbox .quadrant {
+    position: absolute;
+    background: url();
+    height: 45px;
+    width: 45px;
+    top: 258px;
+    left: 354px;
+    z-index: 0;
+}
+
+.xbox .p0 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.xbox .p1 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.xbox .p2 {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.xbox .p3 {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.xbox .arrows {
+    position: absolute;
+    width: 145px;
+    height: 70px;
+    top: 261px;
+    left: 303px;
+}
+
+.xbox .back, .xbox .start {
+    background: url(https://i.imgur.com/FKkd4m5.png);
+    width: 37px;
+    height: 39px;
+    opacity: 1;
+}
+
+.xbox .back.pressed, .xbox .start.pressed {
+    background-position-y: -40px;
+    opacity: 1;
+}
+
+.xbox .back {
+
+}
+
+.xbox .start {
+    background-position: 39px 0px;
+
+}
+
+.xbox .abxy {
+    position: absolute;
+    width: 226px;
+    height: 127px;
+    top: 192px;
+    left: 488px;
+}
+
+.xbox .button {
+    position: absolute;
+    background: url(https://i.imgur.com/Uhk5hr6.png);
+    width: 55px;
+    height: 62px;
+}
+
+.xbox .button.pressed {
+    background-position-y: -61px;
+    margin-top: 2px;
+    opacity: 1;
+}
+
+.xbox .a {
+    background-position: 0 0;
+    top: 100px;
+    left: 48px;
+}
+
+.xbox .b {
+    background-position: -56px 0;
+    top: 48px;
+    right: 70px;
+}
+
+.xbox .x {
+    background-position: -110px 0;
+    top: 48px;
+    left: -1px;
+}
+
+.xbox .y {
+    background-position: 60px 0;
+    left: 51px;
+    top: -2px;
+}
+
+.xbox .sticks {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 235px;
+    left: 140px;
+}
+
+.xbox .stick {
+    position: absolute;
+    background: url(https://i.imgur.com/cxfMi81.png);
+    background-position: -105px -5px;
+    height: 90px;
+    width: 90px;
+}
+
+.xbox .stick.pressed {
+    background-position: -5px -5px;
+}
+
+.xbox .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.xbox .stick.right {
+    top: 113px;
+    left: 288px;
+}
+
+.xbox .dpad {
+    position: absolute;
+    width: 110px;
+    height: 111px;
+    top: 345px;
+    left: 223px;
+}
+
+.xbox .face {
+    background: url(https://i.imgur.com/lYu64zI.png);
+    position: absolute;
+    opacity: 0;
+}
+
+.xbox .face.pressed {
+    opacity: 1;
+}
+
+.xbox .face.up {
+    background-position: 34px 0;
+    left: 38px;
+    top: 2px;
+    width: 34px;
+    height: 56px;
+}
+
+.xbox .face.down {
+    left: 38px;
+    bottom: -3px;
+    width: 34px;
+    height: 56px;
+}
+
+.xbox .face.left {
+    background-position: 0 -92px;
+    width: 58px;
+    height: 37px;
+    top: 39px;
+    left: 0;
+}
+
+.xbox .face.right {
+    background-position: 0 -56px;
+    width: 55px;
+    height: 37px;
+    top: 39px;
+    right: -1;
+}
+
+.xbox.half {
+    margin-top: -315px;
+}
+
+.xbox {
+    background: no-repeat center;
+}
+
+/*END Xbox One Controller Styling*/
